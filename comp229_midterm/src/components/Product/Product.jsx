@@ -35,9 +35,6 @@ export default function Product() {
   return (
       <form className="product">
           <h2 class="centered-title">New Product</h2>          
-          <label className="product__text" htmlFor="name">
-              Name:
-          </label>
           <input
               type="text"
               id="name"
@@ -48,9 +45,6 @@ export default function Product() {
               onChange={handleChange}
           />
 
-          <label className="product__text" htmlFor="description">
-              Description:
-          </label>
           <input
               type="text"
               id="description"
@@ -61,9 +55,6 @@ export default function Product() {
               onChange={handleChange}
           />
           
-          <label className="product__text" htmlFor="category">
-              Category:
-          </label>
           <input
               type="text"
               id="category"
@@ -74,9 +65,6 @@ export default function Product() {
               onChange={handleChange}
           />
 
-          <label className="product__text" htmlFor="quantity">
-              Quantity:
-          </label>
           <input
               type="number"
               id="quantity"
@@ -87,9 +75,6 @@ export default function Product() {
               onChange={handleChange}
           />
 
-          <label className="product__text" htmlFor="price">
-              Price:
-          </label>
           <input
               type="number"
               id="price"
